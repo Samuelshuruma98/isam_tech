@@ -1,0 +1,186 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333333;
+}
+
+header {
+    background-color: #E6F2FF;
+    color: #367fc8;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(247, 245, 245, 0.965);
+}
+
+.navbar-brand img {
+    width: 150px;
+    filter: drop-shadow(2px 2px 5px rgb(254, 252, 252));
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #1c94df;
+    border-radius: 40px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0A74DA, #23A6D5);
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1, h2, h4, h5 {
+    color: #003366;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #E6F2FF;
+    color: #003366;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section Enhancements */
+
+#about h2, #about h3 {
+    color: #343a40;
+    transition: color 0.3s;
+}
+
+#about h2:hover, #about h3:hover {
+    color: #007BFF;
+}
+
+.about-carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-carousel img:hover {
+    transform: scale(1.05);
+}
+
+.accordion-button {
+    font-weight: bold;
+    background-color: #f8f9fa;
+    color: #007BFF;
+    transition: background 0.3s, color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.accordion-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list-group-item {
+    border: none;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.05);
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.about-text:hover {
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+.carousel img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Landing Page Styling */
+.landing-page {
+    position: relative;
+    height: 100vh;
+    background: url('images/landingpage isam1.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.landing-content {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: 0.3s;
+    
+}
+
+.btn-light:hover {
+    background-color: #2e88e2;
+    color: #333333;
+}
+
+/* Make Navbar Fixed */
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
